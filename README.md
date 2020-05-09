@@ -132,50 +132,8 @@ python3.6 spades.py --12 ../../SRR11508492/reference/paired.fq -s ../../SRR11508
 Sintaxis para formatos de GitHub
 https://help.github.com/es/github/writing-on-github/basic-writing-and-formatting-syntax
 
-# Instalar los programas necesarios para este tutorial
+1. [Intalar](https://github.com/quipupe/virus_assembly/wiki/) los programas necesarios para este tutorial
 
-SRA Toolkit
-```
-wget "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-centos_linux64.tar.gz"
-#Unzip the file
-tar -xzf sratoolkit.current-centos_linux64.tar.gz
-#Configure SRA Toolkit
-./vdb-config -i
-#Test download
-./fastq-dump -X 5 -Z SRR390728
-```
-Obtener los arvhivos fastq utilizando `fastq-dump`. Use infomracion de esta [pagina](https://edwards.sdsu.edu/research/fastq-dump/).
-Esta forma toma mas tiempo asi que se recomienda usar `prefetch` primero y luego `fasterq-dump`
-```
-fastq-dump --split-files --readids --skip-technical --gzip --read-filter pass --dumpbase --clip SRR11508492
-fastq-dump2.10.5 --split-e --skip-technical --gzip --read-filter pass --dumpbase --clip ./SRR11508492.sra
-```
- 
-Descargar [java](https://linuxize.com/post/install-java-on-ubuntu-18-04/) en Ubuntu
-```
-sudo apt update #quizas no es necesario
-sudo apt install default-jdk
-#Verify the installation
-java --version
-```
-Samtools
-http://www.htslib.org/download/
-http://quinlanlab.org/tutorials/samtools/samtools.html
-```
-./configure --prefix=/mnt/c/Users/pipor/Desktop/coronavirus/genome/samtools/ 
-make
-make install
-```
-`prefix=` instala el programa en un directorio local 
-
-SPAdes
-```
-wget http://cab.spbu.ru/files/release3.14.1/SPAdes-3.14.1.tar.gz
-tar -xzf SPAdes-3.14.1.tar.gz
-cd SPAdes-3.14.1
-#sudo apt install cmake en WSL
-spades.py --pe1-1 ../share/spades/test_dataset/ecoli_1K_1.fq.gz --pe1-2 ../share/spades/ test_dataset/ecoli_1K_2.fq.gz -o spades_test
-```
 Mas informacion sobre
 SPAdes
 https://github.com/ablab/spades#sec2.1
