@@ -68,8 +68,10 @@ fastqc out_forward_PE.fq.gz
 ```
 
 Luego, usa bowtie2 para crear un index a partir de la secuencia fasta. El index se llamara **virus**
+```
 bowtie2-build -f file.fasta dbname
 bowtie2-build -f wuhan_NC_045512.fa virus
+```
 
 Use como informacion esta [pagina](http://www.metagenomics.wiki/tools/bowtie2) y esta [otra](https://www.protocols.io/view/week-6-mapping-with-bowtie2-g5zby76)
 
@@ -150,7 +152,10 @@ cd SPAdes-3.14.1
 #sudo apt install cmake en WSL
 spades.py --pe1-1 ../share/spades/test_dataset/ecoli_1K_1.fq.gz --pe1-2 ../share/spades/ test_dataset/ecoli_1K_2.fq.gz -o spades_test
 ```
-
+Mas informacion sobre
+SPAdes
 https://github.com/ablab/spades#sec2.1
+Bowtie2
 https://www.protocols.io/view/week-6-mapping-with-bowtie2-g5zby76?step=16
+BLAST del nuevo ensamblado contra el genoma de referencia
 https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Get&RID=BC7WAC8D114
