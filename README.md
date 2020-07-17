@@ -1,5 +1,5 @@
 # virus_assembly
-## Protocolo para ensamblar un genoma viral
+## Protocolo para ensamblar y anotar genomas virales y observarlos en NextStrain
 
 1. [Instalar](https://github.com/quipupe/virus_assembly/wiki/Instalacion-de-programas) los programas necesarios para este tutorial
 2. [Ensamblar](https://github.com/quipupe/virus_assembly/wiki/Ensamblaje-del-genoma-viral) del genoma viral
