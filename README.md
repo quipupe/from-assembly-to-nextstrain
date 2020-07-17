@@ -4,7 +4,7 @@
 1. [Instalar](https://github.com/quipupe/virus_assembly/wiki/Instalacion-de-programas) los programas necesarios para este tutorial
 2. [Ensamblaje](https://github.com/quipupe/virus_assembly/wiki/Ensamblaje-del-genoma-viral) del genoma viral
 3. [Anotación](https://github.com/quipupe/virus_assembly/wiki/Anotacion-del-genoma) del genoma viral usando el genoma de referencia
-
+4. [Ver](https://github.com/quipupe/virus_assembly/wiki/NextStrain) los resultados de manera similar a NextStrain
 ## Notas adicionales
 Sintaxis para formatos de GitHub
 https://help.github.com/es/github/writing-on-github/basic-writing-and-formatting-syntax
