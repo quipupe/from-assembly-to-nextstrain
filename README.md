@@ -1,4 +1,4 @@
-# virus_assembly
+# Tutorial para analizar genomas de SARS-CoV-2
 ## Protocolo para ensamblar y anotar genomas virales y observarlos en NextStrain
 
 1. [Instalar](https://github.com/quipupe/virus_assembly/wiki/Instalacion-de-programas) los programas necesarios para este tutorial
