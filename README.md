@@ -18,6 +18,7 @@ https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Get&RID=BC7WAC8D114
 
 ### BWA
 http://bio-bwa.sourceforge.net/
+
 https://sourceforge.net/projects/bio-bwa/files/
 
 ### Bowtie2 (NO usado, ser usará BWA)
