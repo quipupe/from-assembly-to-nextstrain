@@ -12,7 +12,13 @@ https://help.github.com/es/github/writing-on-github/basic-writing-and-formatting
 Mas informacion sobre:
 ### SPAdes
 https://github.com/ablab/spades#sec2.1
-### Bowtie2
-https://www.protocols.io/view/week-6-mapping-with-bowtie2-g5zby76?step=16
+
 ### BLAST del nuevo ensamblado contra el genoma de referencia
 https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Get&RID=BC7WAC8D114
+
+### BWA
+http://bio-bwa.sourceforge.net/
+https://sourceforge.net/projects/bio-bwa/files/
+
+### Bowtie2 (NO usado, ser usará BWA)
+https://www.protocols.io/view/week-6-mapping-with-bowtie2-g5zby76?step=16
